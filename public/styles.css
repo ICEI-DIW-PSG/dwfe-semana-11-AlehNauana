@@ -1,0 +1,23 @@
+:root {
+  --azul-99: #002147;
+  --amarelo-99: #f1c40f;
+}
+
+body {
+  background-color: #ebebeb;
+  font-family: 'Arial', sans-serif;
+}
+
+header {
+  background-color: var(--azul-99) !important;
+  width: 100% !important;
+  display: block !important;
+}
+
+.nav-link {
+  color: #ffffff !important;
+}
+
+.nav-link:hover {
+  color: var(--amarelo-99) !important;
+}
